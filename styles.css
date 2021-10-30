@@ -1,0 +1,56 @@
+* {
+    color: black;
+}
+h1 {
+    color: green;
+}
+p {
+    font-size: 20px;
+}
+.first {
+    font-size: 10px;
+    color: blue;
+}
+#second {
+    color: green;
+}
+.block p {
+    color: yellow;
+}
+.block > p {
+    color: pink;
+}
+a + p {
+    color: rebeccapurple;
+}
+li:nth-child(4) {
+    color: lightcoral;
+}
+li:nth-child(even) {
+    color: lightsalmon;
+}
+li:nth-child(odd) {
+    color: lightseagreen;
+}
+li:first-child {
+    color: red;
+}
+a[href] {
+    text-decoration: none;
+}
+.list {
+    font-size: 15px;
+}
+.list p {
+    font-size: 1.5em;
+}
+h1 + p {
+    background-color: lightskyblue;
+}
+h1 + p + div {
+    background-image: url('https://www.industrialempathy.com/img/remote/ZiClJf-1920w.jpg'), url('https://www.imgacademy.com/sites/default/files/2009-stadium-about.jpg');
+    height: 250px;
+    background-size: 200px, 200px, 100px, 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
